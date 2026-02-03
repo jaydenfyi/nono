@@ -47,7 +47,7 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 # Output styling
 colored = "2"
 rand = "0.8"
-nix = "0.29"
+nix = "0.31"
 
 # Platform-specific
 [target.'cfg(target_os = "linux")'.dependencies]
